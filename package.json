@@ -1,0 +1,25 @@
+{
+  "name": "fis-preprocessor-cssprefixer",
+  "description": "A optimizer for fis to autoprefixer css with postcss/autoprefixer.",
+  "version": "0.0.2",
+  "author": "scott-wong",
+  "keywords": [
+    "fis",
+    "autoprefixer"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "autoprefixer-core": "~5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scott-wong/fis-preprocessor-cssprefixer.git"
+  },
+  "license": "MIT"
+}
