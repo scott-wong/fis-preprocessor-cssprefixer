@@ -8,7 +8,7 @@ a preprocessor for fis to autoprefixer css with [postcss/autoprefixer](https://g
 2. modify fis-conf.js, invoke the cssprefixer plugin and set the browsers option of `postcss/autoprefixer` (https://github.com/ai/browserslist)
 
 	```
-	test.match('{*.css,*.scss}', {
+	fis.match('{*.css,*.scss}', {
         preprocessor: fis.plugin('cssprefixer', {
             "browsers": ["FireFox > 1", "Chrome > 1", "ie >= 8"],
             "cascade": true
